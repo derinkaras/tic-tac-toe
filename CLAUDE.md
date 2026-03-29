@@ -11,6 +11,16 @@ npm run lint      # ESLint
 npm run preview   # Preview production build
 ```
 
+## Git Workflow
+
+Push to `origin/main` after any meaningful change (new feature, bug fix, refactor, structural change). This keeps the remote history usable for reverting. Commit message should briefly describe what changed and why.
+
+```bash
+git add <files>
+git commit -m "description"
+git push
+```
+
 ## Architecture
 
 Single-page React + TypeScript app using Vite and Tailwind CSS v4.
